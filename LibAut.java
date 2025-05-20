@@ -22,4 +22,8 @@ public class LibAut {
     public void setDni(String dni) {
         this.dni = dni;
     }
+    public void añadirRelacionAutorLibro(String isbn, String dni){
+        this.isbn = isbn;
+        this.dni = dni;
+    }
 }
