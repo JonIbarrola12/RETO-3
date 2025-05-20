@@ -42,4 +42,7 @@ public class Autor {
     public void setApellido2(String apellido2) {
         this.apellido2 = apellido2;
     }
+    public String getNombreCompleto(){
+        return this.nombre + " " + this.apellido1 + " " + this.apellido2;
+    }
 }
